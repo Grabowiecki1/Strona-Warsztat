@@ -98,7 +98,49 @@ h2{
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
     text-align: center;
-}
-.column{
 
 }
+.column{
+    display: flex;
+    justify-content: space-evenly;
+}
+.column1 {
+    width: 114px;
+    height: 140px;
+}
+.column2 {
+    width: 114px;
+    height: 140px;
+}
+.column3 {
+    width: 114px;
+    height: 140px;
+}
+.asset{
+    width: 44px;
+    height: 52px;
+    text-align: right;
+    position: relative;
+}
+.asset::before{
+    content:"";
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+
+
+
+.number{
+    text-align: center;
+    font-size: 20px;
+}
+.text{
+    text-align: center;
+    font-size: 17px;
+}
+
+
