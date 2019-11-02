@@ -4,10 +4,12 @@
     font-family: 'Open Sans', sans-serif;
 
 }
+
 .container{
-    width: 1352px;
+    max-width: 1352px;
 }
 .header{
+    width: 100vw;
     height: 70px;
     background-color: white;
     box-shadow: 0px 3px 6px #00000029;
@@ -15,12 +17,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo{
     width: 139px;
     height: 32px;
     color: #08A6e4;
+    padding-left: 50px;
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
 
@@ -28,32 +32,73 @@
 .header__menu{
     list-style-type: none;
     font: Bold 11px/15px Open Sans;
+
 }
 
 li{
     float: left;
-    padding: 10px;
+    padding: 20px;
     letter-spacing: 3.28px;
     color: #000000;
     opacity: 1;
     text-transform: uppercase;
+    font-weight: normal;
+    border-bottom: 2px solid white;
 }
 li:hover{
     cursor: pointer;
     border-bottom: 2px solid blue;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .section1 {
-    top: 208px;
-    left: -54.5px;
-    width: 1735px;
+
+    width: 100vw;
     height: 704px;
     background-image: url("../assets/Background.png");
     background-position: bottom;
     background-repeat: no-repeat;
     text-align: center;
+    margin-top: 50px;
 
 }
 h1 {
     font-size: 49px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+h4{
+    font-size: 16px;
+    font-weight: normal;
+}
+.button{
+    width: 440px;
+    height: 67px;
+    background-color:#08A6E4;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 50px ;
+}
+.button:hover{
+    background-color: dodgerblue;
+    cursor: pointer;
+
+}
+.section2{
+    width: 100vw;
+    height: 531px;
+    background-color: white;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+.column{
 
 }
